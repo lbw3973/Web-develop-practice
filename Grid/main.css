@@ -6,6 +6,9 @@
   grid-template-rows: repeat(2, 100px);
 }
 
+.item {
+  
+}
 .container .item {
   border: 4px solid;
 }
