@@ -1,0 +1,33 @@
+html {
+  --breakpoint-sm: 640px;
+}
+.item {
+  width: 400px;
+  height: 100px;
+  background-color: orange;
+  border: 10px dashed;
+}
+/* max: 이하 min: 이상 */
+/* 기본값은 all and */
+/* @media (max-width: 450px) {
+  .item {
+    width: 200px;
+    background-color: royalblue;
+  }
+} */
+/* @media (orientation: landscape) {
+  .item {
+    width: auto;
+    max-width: 400px;
+    background-color: royalblue;
+    position: fixed;
+    right: 0;
+    bottom: 30px;
+  }
+} */
+@media (max-width: 450px) {
+  .item {
+    width: 200px;
+    background-color: royalblue;
+  }
+}

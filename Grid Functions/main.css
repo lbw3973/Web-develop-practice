@@ -1,0 +1,28 @@
+img {
+  /* filter: 
+  drop-shadow(10px 20px 10px rgba(0,0,0,.37))
+  grayscale(50%)
+  invert()
+  blur(2px); */
+}
+.container {
+  background-image: url("https://picsum.photos/200/500");
+  width: 200px;
+  height: 500px;
+  border-radius: 200px;
+  border: 20px solid rgba(255,255,255,.5);
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  /* border: 10px solid; */
+  border-radius: 50%;
+  position: fixed;
+  top: 150px;
+  left: 100px;
+  backdrop-filter: 
+    blur(5px)
+    grayscale();
+}
