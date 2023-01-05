@@ -1,0 +1,13 @@
+html {
+  --color: red;
+}
+.container {
+  height: 122px;
+  background-color: orange;
+}
+.item {
+  --width: 122px;
+  width: var(--width);
+  height: calc(var(--width) * 3 / 2);
+  background-color: var(--color);
+}
