@@ -1,0 +1,48 @@
+$main-color: #3d3dff;
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Button {
+  // 내부 요소 정렬
+  @include flex-center;
+
+  // 버튼 기본 속성 제거
+  outline: none;
+  border: none;
+
+  background-color: $main-color;
+  border-radius: 10px;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  cursor: pointer;
+
+  &.large {
+    width: 140px;
+    height: 70px;
+    font-size: 24px;
+  }
+  &.medium {
+    width: 120px;
+    height: 60px;
+    font-size: 24px;
+  }
+  &.small {
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+  }
+  &.red {
+    background-color: red;
+  }
+  &.blue {
+    background-color: blue;
+  }
+  &.green {
+    background-color: green;
+  }
+}
