@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "title": "First Post",
+      "body": "First Content",
+      "id": 1
+    },
+    {
+      "title": "second post",
+      "body": "second content",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "email": "lbw3973@sds.com",
+      "password": "$2a$10$k3k3s.1ouk2A6vMnWqrS7uHv7vCrOEXTphN4HBrtewUpNALVQk4be",
+      "id": 1
+    },
+    {
+      "email": "lbw3973@test.com",
+      "password": "$2a$10$dqe/TTQabBMFNuZWWyei3OoqBKNckBanzYcpfs1inyNTGyTUlzKcK",
+      "id": 2
+    }
+  ]
+}
